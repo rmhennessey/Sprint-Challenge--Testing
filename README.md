@@ -25,8 +25,34 @@ In this challenge use `Test Driven Development` to build a RESTful API using Nod
 Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 1. In Jest, what are the differences between `describe()` and `it()` globals, and what are good uses for them?
+
+`describe()` breaks your test suite into components
+
+`it()`is where you perform individual tests. 
+
 1. What is the point of `Test Driven Development`? What do you think about this approach?
+
+TDD or Test-Driven Development is a process for when you write and run your tests. Following it makes it possible to have a very high test-coverage. Test-coverage refers to the percentage of your code that is tested automatically, so a higher number is better. TDD also reduces the likelihood of having bugs in your tests, which can otherwise be difficult to track down.
+
+I can see where this would be valuable on large scale projects.
+
+
 1. Mention three types of automated tests.
+
+Input – output test: 
+
+You can use an input-output test if the main function of your software is to transform input data into output data.
+
+Unit test:
+
+A unit test is a script that exercises a specific code object by initializing it, calling methods or functions, and checking the return values. Programmers write and run these tests locally as part of a test driven development process.
+
+Snapshot Testing:
+
+Snapshot Testing is a useful tool for detecting unexpected changes to a component’s UI.
+
+This is particularly useful for detecting regressions because we get immediate feedback in the form of a failing test whenever the way a component renders has changed be it intentional or by accident.
+
 
 ## Project Set Up
 

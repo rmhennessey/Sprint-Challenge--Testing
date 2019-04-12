@@ -30,7 +30,7 @@ describe('server.js', () => {
             expect(response.type).toBe("application/json");
             });
         
-        it("should return an array", async () => {
+        it.only("should return an array", async () => {
             const response = await request(server)
             .get("/games");
             expect(Array.isArray(games)).toBeTruthy();
